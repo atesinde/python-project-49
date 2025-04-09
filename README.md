@@ -22,8 +22,8 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=atesinde_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=atesinde_python-project-49)
 
-### Игра "Чётное или нечётное"
-# Выигрыш
+## Игра "Чётное или нечётное"
+### Выигрыш
 [![asciicast](https://asciinema.org/a/N8AwTlHLLM7qkEecKrwgE9oqU.svg)](https://asciinema.org/a/N8AwTlHLLM7qkEecKrwgE9oqU)
-# Проигрыш
+### Проигрыш
 [![asciicast](https://asciinema.org/a/jjRfkp8BgDV5X5JDqMdHLUQZb.svg)](https://asciinema.org/a/jjRfkp8BgDV5X5JDqMdHLUQZb)
