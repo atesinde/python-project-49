@@ -6,5 +6,3 @@ build: # собрать проект
 	uv build
 package-install: # установить пакет
 	uv tool install dist/*.whl
-test-coverage:
-	uv run pytest --cov=hexlet_python_package --cov-report xml
