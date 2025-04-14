@@ -1,15 +1,17 @@
-from brain_games.engine import is_answer_right
 import random
+
 import prompt
+
+from brain_games.engine import is_answer_right
 
 
 def progression_game(user_name):
     print('What number is missing in the progression?')
     rounds_count = 0
     while rounds_count < 3:
-        progression_start = random.randint(0,20)
-        progression_add = random.randint(0,5)
-        progression_length = random.randint(5,15)
+        progression_start = random.randint(0, 20)
+        progression_add = random.randint(0, 5)
+        progression_length = random.randint(5, 15)
         progression_element = progression_start
         progression = []
         for i in range(progression_length):

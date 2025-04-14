@@ -1,13 +1,15 @@
-from brain_games.engine import is_answer_right
 import random
+
 import prompt
+
+from brain_games.engine import is_answer_right
 
 
 def even_game(user_name):
     print('Answer "yes" if the number is even, otherwise answer "no".')
     rounds_count = 0
     while rounds_count < 3:
-        generated_number = random.randint(1,100)
+        generated_number = random.randint(1, 100)
         print(f'Question: {generated_number}')
         if generated_number % 2 == 0:
             right_answer = 'yes'

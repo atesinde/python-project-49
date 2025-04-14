@@ -1,6 +1,8 @@
-from brain_games.engine import is_answer_right
 import random
+
 import prompt
+
+from brain_games.engine import is_answer_right
 
 
 def calc_game(user_name):
@@ -8,8 +10,8 @@ def calc_game(user_name):
     rounds_count = 0
     operations = ['+', '-', '*']
     while rounds_count < 3:
-        generated_number1 = random.randint(1,100)
-        generated_number2 = random.randint(1,100)
+        generated_number1 = random.randint(1, 100)
+        generated_number2 = random.randint(1, 100)
         generated_operation = random.choice(operations)
         print(f'Question: {generated_number1} {generated_operation} {generated_number2}')
         match generated_operation:
