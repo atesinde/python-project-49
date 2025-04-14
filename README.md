@@ -27,3 +27,9 @@
 [![asciicast](https://asciinema.org/a/tu1i3C2oqFc9rIxJKWFxoY0Qt.svg)](https://asciinema.org/a/tu1i3C2oqFc9rIxJKWFxoY0Qt)
 ### Проигрыш
 [![asciicast](https://asciinema.org/a/8XGkEuFExWzKJdEmmAb9w95Zh.svg)](https://asciinema.org/a/8XGkEuFExWzKJdEmmAb9w95Zh)
+
+## Игра "Простое число"
+### Выигрыш
+[![asciicast](https://asciinema.org/a/NbinZWxhg96PMYjpZnIjTWdqM.svg)](https://asciinema.org/a/NbinZWxhg96PMYjpZnIjTWdqM)
+### Проигрыш
+[![asciicast](https://asciinema.org/a/4ou4mM8XPx7akWwYi9nbiaFbJ.svg)](https://asciinema.org/a/4ou4mM8XPx7akWwYi9nbiaFbJ)
