@@ -27,3 +27,9 @@
 [![asciicast](https://asciinema.org/a/N8AwTlHLLM7qkEecKrwgE9oqU.svg)](https://asciinema.org/a/N8AwTlHLLM7qkEecKrwgE9oqU)
 ### Проигрыш
 [![asciicast](https://asciinema.org/a/jjRfkp8BgDV5X5JDqMdHLUQZb.svg)](https://asciinema.org/a/jjRfkp8BgDV5X5JDqMdHLUQZb)
+
+## Игра "Калькулятор"
+### Выигрыш
+[![asciicast](https://asciinema.org/a/StVINXrSAw6OEgLB1IS6M25sg.svg)](https://asciinema.org/a/StVINXrSAw6OEgLB1IS6M25sg)
+### Проигрыш
+[![asciicast](https://asciinema.org/a/xB1enTKDpxtgQfntvnGZDekxj.svg)](https://asciinema.org/a/xB1enTKDpxtgQfntvnGZDekxj)
