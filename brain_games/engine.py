@@ -1,4 +1,4 @@
-def is_answer_right(user_name, user_answer, right_answer, rounds_count):
+def is_answer_right(user_name, user_answer, right_answer):
         if user_answer == right_answer:
             print('Correct!')
             return True
