@@ -33,3 +33,9 @@
 [![asciicast](https://asciinema.org/a/StVINXrSAw6OEgLB1IS6M25sg.svg)](https://asciinema.org/a/StVINXrSAw6OEgLB1IS6M25sg)
 ### Проигрыш
 [![asciicast](https://asciinema.org/a/xB1enTKDpxtgQfntvnGZDekxj.svg)](https://asciinema.org/a/xB1enTKDpxtgQfntvnGZDekxj)
+
+## Игра "НОД"
+### Выигрыш
+[![asciicast](https://asciinema.org/a/O4vE6pVSrT0qTgJtQT2wEvTdd.svg)](https://asciinema.org/a/O4vE6pVSrT0qTgJtQT2wEvTdd)
+### Проигрыш
+[![asciicast](https://asciinema.org/a/1tEWf2xVjF1p1RlQavlHX3DcJ.svg)](https://asciinema.org/a/1tEWf2xVjF1p1RlQavlHX3DcJ)
