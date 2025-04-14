@@ -1,9 +1,9 @@
 from brain_games.cli import welcome_user
+from brain_games.games_common_operations import is_answer_right
 import random
 import prompt
 
 def main():
-    print('Welcome to the Brain Games!')
     user_name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     rounds_count = 0
@@ -15,12 +15,10 @@ def main():
         else:
             right_answer = 'no'
         user_answer = prompt.string('Your answer: ')
-        if user_answer == right_answer:
-            print('Correct!')
-            rounds_count += 1
-        else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, {user_name}!")
+        if not is_answer_right(user_name, user_answer, right_answer, rounds_count):
             break
+        else:
+            rounds_count += 1
     if rounds_count == 3:
         print(f'Congratulations, {user_name}!')
 
