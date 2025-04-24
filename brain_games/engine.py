@@ -25,7 +25,7 @@ def game_engine(game):
     while rounds_count < 3:
         _, question, right_answer = game()
         print(f'Question: {question}')
-        if type(right_answer) == str:
+        if type(right_answer) is str:
             user_answer = prompt.string('Your answer: ')
         else:
             user_answer = prompt.integer('Your answer: ')
