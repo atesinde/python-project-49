@@ -14,7 +14,8 @@ def is_answer_right(user_name, user_answer, right_answer):
         return True
     else:
         print(
-            f"'{user_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.\n"
+            f"'{user_answer}' is wrong answer ;(. " 
+            f"Correct answer was '{right_answer}'.\n"
             f"Let's try again, {user_name}!"
         )
         return False
