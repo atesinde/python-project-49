@@ -1,6 +1,11 @@
 import random
 
-from brain_games.utility.is_num_simple import is_num_simple
+
+def is_num_prime(number):
+    for i in range(2, number // 2):
+        if number % i == 0:
+            return False
+    return True
 
 
 def prime_game():
@@ -9,7 +14,7 @@ def prime_game():
         'Otherwise answer "no".'
     )
     question = random.randint(2, 100)
-    if is_num_simple(question):
+    if is_num_prime(question):
         right_answer = 'yes'
     else:
         right_answer = 'no'

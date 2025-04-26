@@ -10,9 +10,9 @@ def calc_game():
     question = f'{generated_number1} {generated_operation} {generated_number2}'
     match generated_operation:
         case '+':
-            right_answer = generated_number1 + generated_number2
+            right_answer = str(generated_number1 + generated_number2)
         case '-':
-            right_answer = generated_number1 - generated_number2
+            right_answer = str(generated_number1 - generated_number2)
         case '*':
-            right_answer = generated_number1 * generated_number2
+            right_answer = str(generated_number1 * generated_number2)
     return message_question, question, right_answer

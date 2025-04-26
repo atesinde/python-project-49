@@ -11,8 +11,9 @@ def progression_game():
     for i in range(progression_length):
         progression.append(progression_element)
         progression_element += progression_add
-    right_answer = random.choice(progression)
-    missed_element_index = progression.index(right_answer)
+    right_answer_int = random.choice(progression)
+    right_answer = str(right_answer_int)
+    missed_element_index = progression.index(right_answer_int)
     progression[missed_element_index] = '..'
     question = f"{' '.join(map(str, progression))}"
     return message_question, question, right_answer

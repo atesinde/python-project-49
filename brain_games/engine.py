@@ -23,19 +23,14 @@ def is_answer_right(user_name, user_answer, right_answer):
     
 def game_engine(game):
     user_name = welcome_user()
-    rounds_count = 0
+    rounds_count = 3
     game_message, _, _ = game()
     print(game_message)
-    while rounds_count < 3:
+    for i in range(rounds_count):
         _, question, right_answer = game()
         print(f'Question: {question}')
-        if type(right_answer) is str:
-            user_answer = prompt.string('Your answer: ')
-        else:
-            user_answer = prompt.integer('Your answer: ')
+        user_answer = prompt.string('Your answer: ')
         if not is_answer_right(user_name, user_answer, right_answer):
-            break
-        else:
-            rounds_count += 1
-    if rounds_count == 3:
-        print(f'Congratulations, {user_name}!')
+            return
+        if i == rounds_count - 1:
+            print(f'Congratulations, {user_name}!')
